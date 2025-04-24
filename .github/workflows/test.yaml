@@ -1,0 +1,24 @@
+name: Install and Run Animals
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  install_and_run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download animals.deb
+        run: |
+          curl -L -o animals.deb https://github.com/funterminal/animals/raw/a72e24a62d7e3d7a0d84a3dfa186e1fc239f4ad0/animals.deb
+
+      - name: Install animals.deb
+        run: |
+          sudo dpkg -i animals.deb
+          sudo apt-get install -f -y  # Fix missing dependencies if any
+
+      - name: Run animals with cow
+        run: |
+          animals -f cow

@@ -19,6 +19,10 @@ jobs:
           sudo dpkg -i animals.deb
           sudo apt-get install -f -y  # Fix missing dependencies if any
 
+      - name: Set execute permissions for animals
+        run: |
+          sudo chmod +x /usr/local/bin/animals
+
       - name: Run animals with cow
         run: |
           animals -f cow

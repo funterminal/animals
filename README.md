@@ -2,7 +2,7 @@
 
 ## Overview
 
-animals is a command-line tool that generates ASCII art animals, objects, and scenes with customizable features. The tool supports various animals, moods, clothing options, and interactive elements like speech bubbles. It's designed to be lightweight, extensible through plugins, and fun to use in terminal environments.
+animals is a command-line tool that generates ASCII art animals, objects, and scenes with customizable features. The tool supports various animals, moods, clothing options, and interactive elements like speech bubbles. It's designed to be lightweight, extensible through plugins, and fun to use in terminal environments. heavily inspired by cowsay
 
 ## Features
 
@@ -10,10 +10,10 @@ animals is a command-line tool that generates ASCII art animals, objects, and sc
 - **Customizable Elements**: Modify animal faces, moods, and clothing
 - **Object Generation**: Display ASCII objects like trains, cars, and hay bales
 - **Interactive Features**: Add speech bubbles with custom text
-- **Visual Effects**: Rainbow-colored output and special scene modes
+- **Visual Effects**: Rainbow-colored output and special scene mode
 - **Plugin System**: Extend functionality with custom plugins
 - **Story Mode**: Create interactive ASCII stories with multiple characters
-- **Special Scenes**: Generate wedding scenes, disco parties, and more
+- **Special Scenes**: Generate wedding scenes (cow and cat), disco parties, and more
 
 ## Installation
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-animals is a command-line tool that generates ASCII art animals, objects, and scenes with customizable features. The tool supports various animals, moods, clothing options, and interactive elements like speech bubbles. It's designed to be lightweight, extensible through plugins, and fun to use in terminal environments. heavily inspired by cowsay
+animals is a command-line tool that generates ASCII art animals, objects, and scenes with customizable features. The tool supports various animals, moods, clothing options, and interactive elements like speech bubbles. It's designed to be lightweight, extensible through plugins, and fun to use in terminal environments. heavily inspired by cowsay. Extremely lightweight with only 7.52 KB Size
 
 ## Features
 
@@ -13,7 +13,7 @@ animals is a command-line tool that generates ASCII art animals, objects, and sc
 - **Visual Effects**: Rainbow-colored output and special scene mode
 - **Plugin System**: Extend functionality with custom plugins
 - **Story Mode**: Create interactive ASCII stories with multiple characters
-- **Special Scenes**: Generate wedding scenes (cow and cat), disco parties, and more
+- **Special ASCII Art**: wedding ASCII arts (cow and cat), disco parties, and more
 
 ## Installation
 
@@ -129,15 +129,15 @@ animals -f cow -g "^^"
 ```
 
 #### Wedding Scene (-wedding)
-Display a wedding scene between a cow and cat.
+Display a wedding  ASCII art between a cow and cat.
 
 Example:
 ```sh
 animals -wedding
 ```
 
-#### Disco Scene (-disco)
-Display a disco party scene.
+#### Disco Party (-disco)
+Display a disco party ascii art.
 
 Example:
 ```sh
@@ -209,7 +209,7 @@ animals is released under the MIT License. See the LICENSE file for details.
 
 ## Technical Details
 
-- **Dependencies**: Only requires basic shell utilities (sh, wget for installation)
+- **Dependencies**: No External Dependencies compared to cowsay (only wget for installation)
 - **Compatibility**: Works on any POSIX-compliant shell
 - **Install Location**: Installs to current directory by default
 - **Configuration**: Creates shell alias in user's rc file
